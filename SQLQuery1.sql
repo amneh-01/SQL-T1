@@ -1,5 +1,5 @@
-create database TechWorldHRDB ;
-
+ create database TechWorldHRDB ;
+ 
 
 create table TemporaryStaff (
 StaffID int PRIMARY KEY,
@@ -24,10 +24,9 @@ ALTER TABLE Employees ADD PhoneNumber VARCHAR(20);
 
 Drop Table TemporaryStaff;
 
-INSERT INTO Employees VALUES (1, 'IT');
-INSERT INTO Employees VALUES (2, 'HR');
-INSERT INTO Employees VALUES (3, 'Finance');
-
+INSERT INTO Departments VALUES (1, 'IT');
+INSERT INTO Departments VALUES (2, 'HR');
+INSERT INTO Departments VALUES (3, 'Finance');
 
 
 INSERT INTO Employees VALUES (1, 'Ahmad Ali', 'ahmad@techworld.com' , 1200.00 ,1, '0791111111');
